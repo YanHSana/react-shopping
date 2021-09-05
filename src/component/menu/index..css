@@ -1,0 +1,15 @@
+
+.menu{
+  position: absolute;
+  bottom: 0px;
+  height: 40px;
+  width: 100%;
+}
+ul{
+  width: 100%;
+}
+li{
+  float: left;
+  width: 25%;
+  line-height: 40px;
+}
