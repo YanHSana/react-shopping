@@ -5,9 +5,14 @@ import axios from 'axios'
 // 请求数据
 // axios.defaults.baseURL="https://api-hmugo-web.itheima.net/api/public/v1"
 axios.defaults.baseURL = 'http://localhost:9000';
-function getDate():void{
-  axios.get('/community').then((res) => {
-    console.log(res);
+// function getDate():void{
+//   axios.get('/community').then((res) => {
+//     console.log(res);
+//   })
+// }
+function getDate(){
+  axios.get('/community').then(res => {
+    console.log(res);  
   })
 }
 
