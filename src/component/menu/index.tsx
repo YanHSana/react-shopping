@@ -1,6 +1,6 @@
 import React from 'react';
 import './index..css'
-import {BrowserRouter as Router, Link } from "react-router-dom"
+import {BrowserRouter as Router, Link, NavLink } from "react-router-dom"
 
 function menu(props:any){
   return(
@@ -13,7 +13,7 @@ function menu(props:any){
         <li>分类</li>
         <li>购物车</li>
         <li>
-          <Link to='/my'>我的</Link>   
+          <NavLink to='/my'>我的</NavLink>   
         </li>
       </ul>
       </Router>

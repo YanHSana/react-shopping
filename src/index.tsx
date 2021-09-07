@@ -2,13 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Menus from './component/menu/index'
+// import Menus from './component/menu/index'
 import reportWebVitals from './reportWebVitals';
-
+import {BrowserRouter as Router, Route } from "react-router-dom"
+// import First from './view/first/index';
+// import My from './view/my/index'
+import Login from './view/login/index'
 ReactDOM.render(
   <React.StrictMode>
+    <Router>
     <App />
-    <Menus></Menus>
+        {/* <Route path='/' exact component={App}></Route> */}
+        <Route path='/my/login' exact component={Login}></Route>
+    </Router>
+    {/* <Menus></Menus> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
