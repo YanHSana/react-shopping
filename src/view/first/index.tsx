@@ -20,7 +20,7 @@ function first(props:any){
   return(
     <div className='first-com' key={props.location.key}>
       first
-      <Button type="primary" onClick={getDate}>Button-First</Button>
+      {/* <Button type="primary" onClick={getDate}>Button-First</Button> */}
     </div>
   )
 }

@@ -1,6 +1,17 @@
 .App {
+  width: 100%;
   text-align: center;
 }
-.App-link {
-  color: #61dafb;
+ul{
+  margin: 0;
+  height: 30px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgba(105, 70, 70, 0.11);
+}
+li{
+  float: left;
+  width: 20%;
+  line-height: 30px;
 }
