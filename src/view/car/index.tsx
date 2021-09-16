@@ -1,11 +1,26 @@
 import React from 'react'
 
-function car(){
-  return(
-    <div>
-      this is car
-    </div>
-  )
+export default class Car extends React.Component{
+  constructor(props){
+    super(props);
+    this.state = {
+      numContent: 1000,
+    }
+  }
+
+  getData = () => {
+    console.log('hello-react');
+    
+  }
+  componentDidMount(){
+    this.getData();
+  }
+  render(){
+    return(
+      <div>
+            CAR
+      </div>
+    )
+  }
 }
 
-export default car;
